@@ -1,0 +1,74 @@
+.top {
+  border: 5px solid red;
+  text-align: center;
+  align-items: center;
+}
+
+.Rubrik {
+  border: 2px solid black;
+  background-color: lightskyblue;
+}
+
+.Rubrik_text {
+  margin: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 24px;
+}
+
+.Länk_text {
+  font-family: "Space Mono", monospace;
+}
+
+a {
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.mitten {
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+.vänster {
+  border: 2px solid black;
+  background-color: blue;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:30px;  
+  width: 49%;
+
+}
+
+.höger {
+  border: 2px solid black;
+  background-color: yellow;
+  padding-top:30px;
+  padding-bottom:30px;  
+  width: 49%;
+  text-align: center;
+
+}
+
+.botten{
+  border: 2px solid yellow  ;
+}
